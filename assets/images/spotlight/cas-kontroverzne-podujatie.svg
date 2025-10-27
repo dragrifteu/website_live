@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title">
+  <title>Čas.sk - Drag Rift coverage</title>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4d0612"/>
+      <stop offset="100%" stop-color="#0f0306"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" rx="32" fill="url(#grad)"/>
+  <path d="M120 360c80-90 180-150 320-150s240 60 320 150" fill="none" stroke="#d9001b" stroke-width="16" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="180" cy="180" r="90" fill="#d9001b" opacity="0.3"/>
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="'Open Sans', Arial, sans-serif" font-weight="700" font-size="64" fill="#ffffff">DRAG RIFT</text>
+  <text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle" font-family="'Open Sans', Arial, sans-serif" font-weight="400" font-size="34" fill="#f7d6dc">Čas.sk report</text>
+</svg>

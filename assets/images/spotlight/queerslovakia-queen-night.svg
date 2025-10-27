@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title">
+  <title>QueerSlovakia - Queen of the night article</title>
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1c3f"/>
+      <stop offset="100%" stop-color="#ff9f1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" rx="32" fill="url(#grad4)"/>
+  <circle cx="200" cy="240" r="140" fill="rgba(255,255,255,0.18)"/>
+  <path d="M140 320c80-120 220-180 360-120s200 160 260 200" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="14" stroke-linecap="round"/>
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="'Open Sans', Arial, sans-serif" font-weight="700" font-size="60" fill="#ffffff">QUEEN OF THE NIGHT</text>
+  <text x="50%" y="72%" dominant-baseline="middle" text-anchor="middle" font-family="'Open Sans', Arial, sans-serif" font-weight="400" font-size="30" fill="#fff3e0">Event teaser</text>
+</svg>

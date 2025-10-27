@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title">
+  <title>QueerSlovakia - Drag queen contest at Radosť</title>
+  <defs>
+    <linearGradient id="grad5" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0c2d48"/>
+      <stop offset="100%" stop-color="#6ee7b7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" rx="32" fill="url(#grad5)"/>
+  <circle cx="640" cy="200" r="130" fill="rgba(255,255,255,0.2)"/>
+  <path d="M80 360c100-100 200-140 300-90s220 40 360-40" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="12" stroke-linecap="round"/>
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="'Open Sans', Arial, sans-serif" font-weight="700" font-size="58" fill="#ffffff">RADOSŤ STAGE</text>
+  <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle" font-family="'Open Sans', Arial, sans-serif" font-weight="400" font-size="32" fill="#e0fff4">Contest night</text>
+</svg>

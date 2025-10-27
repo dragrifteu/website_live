@@ -34,6 +34,104 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,300i,400i,500i,600i,700i,800i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=Bu2Eol"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=Bu2Eol" type="text/css">
 
+  <style>
+    .spotlight-media-section {
+      margin-bottom: 4rem;
+    }
+
+    .spotlight-section-logo img {
+      max-height: 80px;
+      width: auto;
+      margin-bottom: 2rem;
+    }
+
+    .spotlight-card {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      background: rgba(8, 8, 20, 0.85);
+      border-radius: 1.5rem;
+      overflow: hidden;
+      box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.35);
+      margin-bottom: 1.75rem;
+    }
+
+    .spotlight-thumb {
+      flex: 0 0 240px;
+      max-width: 240px;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .spotlight-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .spotlight-body {
+      flex: 1 1 320px;
+      padding: 2rem;
+      color: #ffffff;
+    }
+
+    .spotlight-body h3 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .spotlight-body p {
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 1.25rem;
+    }
+
+    .spotlight-link {
+      font-weight: 600;
+      text-decoration: none;
+      color: #f6c945;
+      transition: color 0.2s ease-in-out;
+    }
+
+    .spotlight-link:hover,
+    .spotlight-link:focus {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 991.98px) {
+      .spotlight-card {
+        border-radius: 1.25rem;
+      }
+
+      .spotlight-body {
+        padding: 1.75rem;
+      }
+    }
+
+    @media (max-width: 767.98px) {
+      .spotlight-card {
+        flex-direction: column;
+      }
+
+      .spotlight-thumb,
+      .spotlight-thumb img {
+        max-width: 100%;
+      }
+
+      .spotlight-thumb {
+        flex-basis: auto;
+        width: 100%;
+      }
+
+      .spotlight-body {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -149,27 +247,81 @@
                 <p class="mbr-text mbr-fonts-style display-7">Media outlets across Slovakia continuously spotlight DRAGRIFT’s cultural impact. Dive into coverage capturing the artistry, resilience, and community at the heart of every edition.</p>
             </div>
         </div>
-        <div class="row g-4">
-            <div class="col-12 col-md-6">
-                <div class="card h-100 border-0 shadow-sm bg-dark text-white p-4">
-                    <h3 class="mbr-section-subtitle mbr-fonts-style mb-3 display-5"><strong>QueerSlovakia</strong></h3>
-                    <ul class="list-unstyled mbr-fonts-style display-7">
-                        <li class="mb-2"><a class="text-white fw-bold" href="https://queerslovakia.sk/text/zvitazila-v-drag-race-teraz-mieri-pandora-nox-do-bratislavy/" target="_blank" rel="noopener">Pandora Nox heads to Bratislava after Drag Race victory</a></li>
-                        <li class="mb-2"><a class="text-white fw-bold" href="https://queerslovakia.sk/text/kultura/drag-rift-je-spat-v-marci-budu-sutazit-v-bratislave-domace-aj-zahranicne-drag-queens/" target="_blank" rel="noopener">Domestic and international queens return to Bratislava</a></li>
-                        <li class="mb-2"><a class="text-white fw-bold" href="https://queerslovakia.sk/text/drag-rift-opat-ovladne-bratislavske-kacecko-tento-raz-si-pripomenie-slovensku-kulturu/" target="_blank" rel="noopener">Honouring Slovak culture at Káčko</a></li>
-                    </ul>
-                </div>
+        <div class="spotlight-media-section text-center">
+            <div class="spotlight-section-logo">
+                <img src="assets/images/logo-cas-sk.svg" alt="Čas.sk logo">
             </div>
-            <div class="col-12 col-md-6">
-                <div class="card h-100 border-0 shadow-sm bg-dark text-white p-4">
-                    <h3 class="mbr-section-subtitle mbr-fonts-style mb-3 display-5"><strong>Spotlight Features</strong></h3>
-                    <ul class="list-unstyled mbr-fonts-style display-7">
-                        <li class="mb-2"><a class="text-white fw-bold" href="https://queerslovakia.sk/text/fresky/stan-sa-kralovnou-noci-na-najblizsej-edicii-drag-riftu-ktora-je-uz-tento-vikend/" target="_blank" rel="noopener">Become the queen of the night at the next edition</a></li>
-                        <li class="mb-2"><a class="text-white fw-bold" href="https://queerslovakia.sk/text/fresky/sutaz-pre-drag-queens-uz-dnes-v-radosti/" target="_blank" rel="noopener">Tonight’s drag queen contest at Radosť</a></li>
-                        <li><a class="text-white fw-bold" href="https://www.cas.sk/tip-od-vas/vase-horuce-tipy/kontroverzne-podujatie-v-bratislave-ktoreho-sucastou-boli-norisova-aj-kanatova-muzi-v-satach-opatkoch-a-uf" target="_blank" rel="noopener">Čas.sk covers the bold Bratislava showcase</a></li>
-                    </ul>
+            <article class="spotlight-card text-white">
+                <div class="spotlight-thumb">
+                    <img src="assets/images/spotlight/cas-kontroverzne-podujatie.svg" alt="Čas.sk cover art for Drag Rift coverage">
                 </div>
+                <div class="spotlight-body text-start">
+                    <h3 class="mbr-fonts-style">Bratislava’s bold Drag Rift showcase in Čas.sk</h3>
+                    <p class="mbr-fonts-style">Čas.sk reported on the unapologetic Drag Rift showcase in Bratislava, capturing appearances by performers such as Zuzana Norisová and Jana Kánatová. The feature highlights the charged atmosphere around the event and the conversations it sparked about queer artistry in Slovakia.</p>
+                    <a class="spotlight-link" href="https://www.cas.sk/tip-od-vas/vase-horuce-tipy/kontroverzne-podujatie-v-bratislave-ktoreho-sucastou-boli-norisova-aj-kanatova-muzi-v-satach-opatkoch-a-uf" target="_blank" rel="noopener">Read the full story on Čas.sk →</a>
+                </div>
+            </article>
+        </div>
+
+        <div class="spotlight-media-section text-center">
+            <div class="spotlight-section-logo">
+                <img src="assets/images/logo-queerslovakia.svg" alt="QueerSlovakia logo">
             </div>
+
+            <article class="spotlight-card text-white">
+                <div class="spotlight-thumb">
+                    <img src="assets/images/spotlight/queerslovakia-pandora-nox.svg" alt="QueerSlovakia illustration for Pandora Nox coverage">
+                </div>
+                <div class="spotlight-body text-start">
+                    <h3 class="mbr-fonts-style">Pandora Nox heads to Bratislava after Drag Race victory</h3>
+                    <p class="mbr-fonts-style">QueerSlovakia introduces the first European winner of RuPaul’s Drag Race, Pandora Nox, and her upcoming appearance at DRAGRIFT. The article celebrates her journey and the excitement of welcoming an international champion to the local stage.</p>
+                    <a class="spotlight-link" href="https://queerslovakia.sk/text/zvitazila-v-drag-race-teraz-mieri-pandora-nox-do-bratislavy/" target="_blank" rel="noopener">Continue reading on QueerSlovakia →</a>
+                </div>
+            </article>
+
+            <article class="spotlight-card text-white">
+                <div class="spotlight-thumb">
+                    <img src="assets/images/spotlight/queerslovakia-march-return.svg" alt="QueerSlovakia illustration for Drag Rift March preview">
+                </div>
+                <div class="spotlight-body text-start">
+                    <h3 class="mbr-fonts-style">Domestic and international queens return to Bratislava</h3>
+                    <p class="mbr-fonts-style">This preview looks at the March edition of DRAGRIFT, where Slovak talents meet guest performers from across Europe. QueerSlovakia outlines what audiences can expect and why the night promises an elevated spectacle.</p>
+                    <a class="spotlight-link" href="https://queerslovakia.sk/text/kultura/drag-rift-je-spat-v-marci-budu-sutazit-v-bratislave-domace-aj-zahranicne-drag-queens/" target="_blank" rel="noopener">Continue reading on QueerSlovakia →</a>
+                </div>
+            </article>
+
+            <article class="spotlight-card text-white">
+                <div class="spotlight-thumb">
+                    <img src="assets/images/spotlight/queerslovakia-slovak-culture.svg" alt="QueerSlovakia illustration for Slovak culture edition">
+                </div>
+                <div class="spotlight-body text-start">
+                    <h3 class="mbr-fonts-style">Honouring Slovak culture at KC Dunaj</h3>
+                    <p class="mbr-fonts-style">QueerSlovakia spotlights how DRAGRIFT reimagines Slovak folklore through drag, music, and fashion inside Bratislava’s legendary venue. The story shares how the collective pays homage to tradition while claiming space for queer narratives.</p>
+                    <a class="spotlight-link" href="https://queerslovakia.sk/text/drag-rift-opat-ovladne-bratislavske-kacecko-tento-raz-si-pripomenie-slovensku-kulturu/" target="_blank" rel="noopener">Continue reading on QueerSlovakia →</a>
+                </div>
+            </article>
+
+            <article class="spotlight-card text-white">
+                <div class="spotlight-thumb">
+                    <img src="assets/images/spotlight/queerslovakia-queen-night.svg" alt="QueerSlovakia illustration for Queen of the Night teaser">
+                </div>
+                <div class="spotlight-body text-start">
+                    <h3 class="mbr-fonts-style">Become the queen of the night at the next edition</h3>
+                    <p class="mbr-fonts-style">The feature invites readers to step into the DRAGRIFT fantasy and embrace the glamour of the upcoming show. It teases special performances, interactive moments, and the inclusive vibe that defines the competition.</p>
+                    <a class="spotlight-link" href="https://queerslovakia.sk/text/fresky/stan-sa-kralovnou-noci-na-najblizsej-edicii-drag-riftu-ktora-je-uz-tento-vikend/" target="_blank" rel="noopener">Continue reading on QueerSlovakia →</a>
+                </div>
+            </article>
+
+            <article class="spotlight-card text-white">
+                <div class="spotlight-thumb">
+                    <img src="assets/images/spotlight/queerslovakia-radost-contest.svg" alt="QueerSlovakia illustration for Radosť drag contest">
+                </div>
+                <div class="spotlight-body text-start">
+                    <h3 class="mbr-fonts-style">Tonight’s drag queen contest at Radosť</h3>
+                    <p class="mbr-fonts-style">QueerSlovakia’s coverage spotlights the sister event at Radosť that gives rising performers their moment under the lights. Readers get a taste of the lineup, the supportive crowd, and how the contest feeds into DRAGRIFT’s wider community.</p>
+                    <a class="spotlight-link" href="https://queerslovakia.sk/text/fresky/sutaz-pre-drag-queens-uz-dnes-v-radosti/" target="_blank" rel="noopener">Continue reading on QueerSlovakia →</a>
+                </div>
+            </article>
         </div>
     </div>
 </section>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title">
+  <title>QueerSlovakia - Slovak culture edition</title>
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f2b3f"/>
+      <stop offset="100%" stop-color="#ff6f61"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" rx="32" fill="url(#grad3)"/>
+  <circle cx="600" cy="160" r="110" fill="rgba(255,255,255,0.2)"/>
+  <rect x="140" y="120" width="160" height="160" rx="24" fill="rgba(255,255,255,0.18)" transform="rotate(-12 220 200)"/>
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="'Open Sans', Arial, sans-serif" font-weight="700" font-size="56" fill="#ffffff">SLOVAK PRIDE</text>
+  <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle" font-family="'Open Sans', Arial, sans-serif" font-weight="400" font-size="32" fill="#ffe4dc">Culture celebration</text>
+</svg>

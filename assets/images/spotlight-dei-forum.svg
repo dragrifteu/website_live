@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="forumGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="48" fill="#0f172a"/>
+  <rect x="80" y="120" width="1040" height="560" rx="36" fill="url(#forumGradient)" opacity="0.4"/>
+  <rect x="120" y="200" width="960" height="400" rx="28" fill="#111827" opacity="0.85" stroke="#22d3ee" stroke-width="4"/>
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="'Open Sans', 'Arial', sans-serif" font-size="64" font-weight="700" fill="#f8fafc">European DEI Business Forum</text>
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="'Open Sans', 'Arial', sans-serif" font-size="36" fill="#e0f2fe">DRAGRIFT Presentation Highlight</text>
+</svg>

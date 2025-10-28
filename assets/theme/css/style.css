@@ -953,6 +953,6 @@ blockquote {
   }
 }
 
-section.article12 + section.article12 {
-  margin-top: 4rem;
+section.article12 + section.article12 .mbr-section-title {
+  margin-top: 1.3em;
 }

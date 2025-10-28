@@ -952,3 +952,7 @@ blockquote {
     left: -100% !important;
   }
 }
+
+section.article12 + section.article12 {
+  margin-top: 4rem;
+}

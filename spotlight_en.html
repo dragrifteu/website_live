@@ -49,17 +49,18 @@
       display: flex;
       flex-wrap: wrap;
       align-items: stretch;
-      background: rgba(8, 8, 20, 0.85);
+      background: #ffffff;
       border-radius: 1.5rem;
       overflow: hidden;
-      box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.35);
+      box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.12);
+      border: 1px solid rgba(35, 35, 35, 0.08);
       margin-bottom: 1.75rem;
     }
 
     .spotlight-thumb {
       flex: 0 0 240px;
       max-width: 240px;
-      background: rgba(255, 255, 255, 0.08);
+      background: #f5f5f5;
     }
 
     .spotlight-thumb img {
@@ -72,7 +73,7 @@
     .spotlight-body {
       flex: 1 1 320px;
       padding: 2rem;
-      color: #ffffff;
+      color: #232323;
     }
 
     .spotlight-body h3 {
@@ -91,14 +92,16 @@
     .spotlight-link {
       font-weight: 600;
       text-decoration: none;
-      color: #f6c945;
-      transition: color 0.2s ease-in-out;
+      color: #232323;
+      border-bottom: 2px solid rgba(35, 35, 35, 0.15);
+      padding-bottom: 0.125rem;
+      transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     }
 
     .spotlight-link:hover,
     .spotlight-link:focus {
-      color: #ffffff;
-      text-decoration: underline;
+      color: #000000;
+      border-color: rgba(0, 0, 0, 0.35);
     }
 
     @media (max-width: 991.98px) {
@@ -251,7 +254,7 @@
             <div class="spotlight-section-logo">
                 <img src="assets/images/logo-cas-sk.svg" alt="Čas.sk logo">
             </div>
-            <article class="spotlight-card text-white">
+            <article class="spotlight-card">
                 <div class="spotlight-thumb">
                     <img src="https://www.cas.sk/icons/brand-logos/novycas.svg" alt="Čas.sk cover art">
                 </div>
@@ -268,7 +271,7 @@
                 <img src="https://queerslovakia.sk/wp-content/uploads/2025/03/109-75-queer-slovakia-2020.png" alt="QueerSlovakia logo">
             </div>
 
-            <article class="spotlight-card text-white">
+            <article class="spotlight-card">
                 <div class="spotlight-thumb">
                     <img src="assets/images/spotlight/queerslovakia-pandora-nox.svg" alt="QueerSlovakia illustration for Pandora Nox coverage">
                 </div>
@@ -279,7 +282,7 @@
                 </div>
             </article>
 
-            <article class="spotlight-card text-white">
+            <article class="spotlight-card">
                 <div class="spotlight-thumb">
                     <img src="assets/images/spotlight/queerslovakia-march-return.svg" alt="QueerSlovakia illustration for Drag Rift March preview">
                 </div>
@@ -290,7 +293,7 @@
                 </div>
             </article>
 
-            <article class="spotlight-card text-white">
+            <article class="spotlight-card">
                 <div class="spotlight-thumb">
                     <img src="assets/images/spotlight/queerslovakia-slovak-culture.svg" alt="QueerSlovakia illustration for Slovak culture edition">
                 </div>
@@ -301,7 +304,7 @@
                 </div>
             </article>
 
-            <article class="spotlight-card text-white">
+            <article class="spotlight-card">
                 <div class="spotlight-thumb">
                     <img src="assets/images/spotlight/queerslovakia-queen-night.svg" alt="QueerSlovakia illustration for Queen of the Night teaser">
                 </div>
@@ -312,7 +315,7 @@
                 </div>
             </article>
 
-            <article class="spotlight-card text-white">
+            <article class="spotlight-card">
                 <div class="spotlight-thumb">
                     <img src="assets/images/spotlight/queerslovakia-radost-contest.svg" alt="QueerSlovakia illustration for Radosť drag contest">
                 </div>
